@@ -1,0 +1,27 @@
+<section>
+<html lang="pt-br">
+    <body>
+     <section>
+         <h2>envie uma mensagem</h2>
+         <form action="#">
+             <label for="nome">Nome completo:</label>
+             <input type="text" id="nome" name="">
+
+             <label for="mensagem">Mensagem</label>
+             <textarea name="mensagem" id="mensagem" rows="5" ></textarea>
+
+             <label for="linguagens">Linguagem web preferida:</label>
+             <select name="linguagens" id="linguagens">
+                 <option value="html">HTML</option>
+                 <option value="css">CSS</option>
+                 <option value="javascript">JavaScript</option>
+                 <option value="nenhuma">NENHUMA</option>
+       </select>
+       <br>
+
+    </form>
+</section>
+</body>
+
+
+</html>

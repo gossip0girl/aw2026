@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Participantes de Oficina</title>
+</head>
+<body>
+
+    <h1>Cadastro de Participantes de Oficina</h1>
+
+    <form>
+
+        <p>Nome completo:</p>
+        <input type="text" name="nome">
+
+        <p>Senha de acesso:</p>
+        <input type="password" name="senha">
+
+        <p>Oficina principal:</p>
+        <select name="oficina">
+            <option>Selecione uma oficina</option>
+            <option>HTML e CSS</option>
+            <option>JavaScript</option>
+            <option>Banco de Dados</option>
+            <option>Robótica</option>
+        </select>
+
+        <p>Turno:</p>
+        <input type="radio" name="turno"> Manhã
+        <input type="radio" name="turno"> Tarde
+        <input type="radio" name="turno"> Noite
+
+        <p>Áreas de interesse:</p>
+        <input type="checkbox"> Programação Web
+        <input type="checkbox"> Design
+        <input type="checkbox"> Banco de Dados
+        <input type="checkbox"> Robótica
+
+        <p>Observações:</p>
+        <textarea rows="5" cols="50"></textarea>
+
+        <br><br>
+        <input type="submit" value="Enviar inscrição">
+
+    </form>
+
+    <hr>
+
+    <h2>Participantes já inscritos</h2>
+
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Oficina</th>
+            <th>Turno</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Ana Clara</td>
+            <td>HTML e CSS</td>
+            <td>Manhã</td>
+            <td>Confirmado</td>
+        </tr>
+
+        <tr>
+            <td>Lucas Henrique</td>
+            <td>JavaScript</td>
+            <td>Tarde</td>
+            <td>Pendente</td>
+        </tr>
+
+        <tr>
+            <td>Mariana Souza</td>
+            <td>Banco de Dados</td>
+            <td>Noite</td>
+            <td>Confirmado</td>
+        </tr>
+
+        <tr>
+            <td>Pedro Lima</td>
+            <td>Robótica</td>
+            <td>Tarde</td>
+            <td>Em análise</td>
+        </tr>
+
+        <tr>
+            <td>Juliana Alves</td>
+            <td>HTML e CSS</td>
+            <td>Manhã</td>
+            <td>Confirmado</td>
+        </tr>
+    </table>
+
+</body>
+</html>
